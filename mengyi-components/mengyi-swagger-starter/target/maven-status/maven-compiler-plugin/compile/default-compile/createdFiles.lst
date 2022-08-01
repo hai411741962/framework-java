@@ -1,0 +1,3 @@
+net\getbang\swagger\properties\SwaggerProperties.class
+META-INF\spring-configuration-metadata.json
+net\getbang\swagger\config\SwaggerAutoConfiguration.class

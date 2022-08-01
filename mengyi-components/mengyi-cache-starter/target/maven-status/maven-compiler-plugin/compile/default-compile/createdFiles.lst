@@ -1,0 +1,15 @@
+net\getbang\cache\utils\EhCacheUtil.class
+net\getbang\cache\config\RedisTemplateConfiguration.class
+net\getbang\cache\aspect\DistributedLockAspect.class
+net\getbang\cache\utils\CacheManagerName.class
+net\getbang\cache\utils\CacheNames.class
+META-INF\spring-autoconfigure-metadata.properties
+META-INF\spring-configuration-metadata.json
+net\getbang\cache\annotation\DistributedLock.class
+net\getbang\cache\config\RedisOperationsConfiguration.class
+net\getbang\cache\aspect\CacheAspect.class
+net\getbang\cache\utils\RedisUtil.class
+net\getbang\cache\configuration\CacheAutoConfiguration.class
+net\getbang\cache\config\CachingConfiguration.class
+net\getbang\cache\annotation\MyCacheable.class
+net\getbang\cache\annotation\MyCacheEvict.class

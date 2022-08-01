@@ -1,0 +1,7 @@
+net\getbang\kafka\config\MyProducerConfig.class
+net\getbang\kafka\constant\KafkaConstants.class
+net\getbang\kafka\annotation\EnableKafkaProducer.class
+net\getbang\kafka\config\MyConsumerConfig.class
+net\getbang\kafka\controller\KafkaManageController.class
+net\getbang\kafka\annotation\EnableKafka.class
+net\getbang\kafka\annotation\EnableKafkaConsumer.class

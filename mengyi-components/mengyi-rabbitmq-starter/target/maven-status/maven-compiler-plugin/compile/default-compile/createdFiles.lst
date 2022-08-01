@@ -1,0 +1,4 @@
+net\getbang\rabbitmq\RabbitmqConfiguration.class
+META-INF\spring-configuration-metadata.json
+net\getbang\rabbitmq\properties\RabbitmqProperties.class
+net\getbang\rabbitmq\ConsumerRunCondition.class

@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "spring.rabbitmq",
+      "type": "net.getbang.rabbitmq.properties.RabbitmqProperties",
+      "sourceType": "net.getbang.rabbitmq.properties.RabbitmqProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.rabbitmq.address",
+      "type": "java.lang.String",
+      "sourceType": "net.getbang.rabbitmq.properties.RabbitmqProperties"
+    },
+    {
+      "name": "spring.rabbitmq.password",
+      "type": "java.lang.String",
+      "sourceType": "net.getbang.rabbitmq.properties.RabbitmqProperties"
+    },
+    {
+      "name": "spring.rabbitmq.user-name",
+      "type": "java.lang.String",
+      "sourceType": "net.getbang.rabbitmq.properties.RabbitmqProperties"
+    },
+    {
+      "name": "spring.rabbitmq.virtual-host",
+      "type": "java.lang.String",
+      "sourceType": "net.getbang.rabbitmq.properties.RabbitmqProperties"
+    }
+  ],
+  "hints": []
+}

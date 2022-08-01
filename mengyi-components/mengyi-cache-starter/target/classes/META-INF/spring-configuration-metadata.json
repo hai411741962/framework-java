@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "ew.cache",
+      "type": "net.getbang.cache.config.CachingConfiguration",
+      "sourceType": "net.getbang.cache.config.CachingConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ew.cache.eh-cache",
+      "type": "java.lang.Boolean",
+      "description": "默认eh缓存，false则为redis",
+      "sourceType": "net.getbang.cache.config.CachingConfiguration",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

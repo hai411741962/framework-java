@@ -1,0 +1,11 @@
+net\getbang\log\feign\LogClientFallback.class
+net\getbang\log\event\ErrorLogEvent.class
+net\getbang\log\model\ServerInfo.class
+net\getbang\log\model\LogAbstract.class
+net\getbang\log\model\LogError.class
+net\getbang\log\listener\ErrorLogListener.class
+net\getbang\log\publisher\ErrorLogPublisher.class
+net\getbang\log\feign\ILogClient.class
+net\getbang\log\utils\LogAbstractUtil.class
+net\getbang\log\config\LogAutoConfiguration.class
+META-INF\spring-autoconfigure-metadata.properties

@@ -1,0 +1,4 @@
+net\getbang\feign\annotation\EnablemengyiFeignClients.class
+META-INF\spring-autoconfigure-metadata.properties
+net\getbang\feign\config\FeignAutoConfiguration.class
+net\getbang\feign\config\FeignRequestInterceptor.class
