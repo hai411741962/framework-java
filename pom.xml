@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.getbang.framework</groupId>
+    <groupId>io.github.hai411741962</groupId>
     <artifactId>mengyi-framework</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <modules>
@@ -44,7 +44,7 @@
 
         <!--文件服务minio-->
         <minio.version>8.2.1</minio.version>
-
+        <github.global.server>github</github.global.server>
     </properties>
 
     <dependencyManagement>
@@ -52,42 +52,42 @@
         <dependencies>
             <!--工具-->
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-utils</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-beans</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-web-starter</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-log-starter</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-feign-starter</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-swagger-starter</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>net.getbang.framework</groupId>
+                <groupId>io.github.hai411741962</groupId>
                 <artifactId>mengyi-kafka-starter</artifactId>
                 <version>${mengyi.framework.version}</version>
             </dependency>
@@ -234,6 +234,21 @@
                     </execution>
                 </executions>
             </plugin>
+
+
+
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.7</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
@@ -258,6 +273,13 @@
         </pluginRepository>
     </pluginRepositories>
 
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 </project>

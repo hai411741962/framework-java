@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>mengyi-framework</artifactId>
-        <groupId>net.getbang.framework</groupId>
+        <groupId>io.github.hai411741962</groupId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>net.getbang.framework</groupId>
+            <groupId>io.github.hai411741962</groupId>
             <artifactId>mengyi-beans</artifactId>
         </dependency>
         <dependency>
