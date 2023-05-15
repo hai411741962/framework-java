@@ -1,5 +1,0 @@
-net\getbang\minio\dto\Fileinfo.class
-net\getbang\minio\config\MinioConfig.class
-META-INF\spring-autoconfigure-metadata.properties
-net\getbang\minio\config\MinioAutoConfiguration.class
-net\getbang\minio\utils\MinioUtil.class
