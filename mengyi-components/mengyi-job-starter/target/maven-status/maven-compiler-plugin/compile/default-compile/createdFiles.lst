@@ -1,9 +1,0 @@
-net\getbang\job\config\JobAutoConfiguration.class
-net\getbang\job\properties\JobProperties$Admin.class
-net\getbang\job\properties\JobProperties$Executor.class
-net\getbang\job\properties\JobProperties.class
-net\getbang\job\cron\TaskScheduleModel.class
-net\getbang\job\cron\CronUtil.class
-META-INF\spring-autoconfigure-metadata.properties
-META-INF\spring-configuration-metadata.json
-net\getbang\job\config\DynamicXxlJobService.class
